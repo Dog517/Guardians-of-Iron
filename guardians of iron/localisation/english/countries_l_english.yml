@@ -1,0 +1,13 @@
+﻿l_english:
+ KOG_democratic: "Kingdom of Ga'Hoole"
+ KOG_democratic_DEF: "Kingdom of Ga'Hoole"
+ KOG_democratic_ADJ:0 "Ga'Hoolian"
+ KOG_neutrality_ADJ:0 "Ga'Hoolian"
+ KOG_communism_ADJ:0 "Ga'Hoolian"
+ PUR_democratic: "Tytonic Union of Pure Ones"
+ PUR_fascism: "Tytonic Union of Pure Ones"
+ PUR_fascism_DEF: "Pure Ones"
+ PUR_democratic_DEF: "Pure Ones"
+ PUR_democratic_ADJ:0 "Tytonic"
+ PUR_fascism_ADJ:0 "Tytonic"
+ PUR_communism_ADJ:0 "Tytonic"

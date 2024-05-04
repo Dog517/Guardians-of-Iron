@@ -1,0 +1,19 @@
+state={
+	id=3
+	name="St. Aegolius's Canyons"
+	provinces={
+		1619 812 1330 999 1159 1442 370 895 987 792 1569 860 892 1018 120 1088 1541 1019 1792 510 1639 683 1226 1420 1631
+		}
+	buildings_max_level_factor=1.000
+        manpower=1000
+        state_category = city
+	history={
+		owner = PUR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+		add_core_of = PUR
+	}
+}

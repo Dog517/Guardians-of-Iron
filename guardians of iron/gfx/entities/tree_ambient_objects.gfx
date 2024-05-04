@@ -1,0 +1,5 @@
+objectTypes = {
+	pdxmesh = {
+		name = "treemesh"
+		file = "gfx/models/treemesh.mesh"
+	}

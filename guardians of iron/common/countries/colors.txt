@@ -1,0 +1,8 @@
+KOG = {
+	color = rgb { 0 0 179 }
+	color_ui = rgb { 0 0 179 }
+}
+PUR = {
+	color = rgb { 220 0 0 }
+	color_ui = rgb { 220 0 0 }
+}

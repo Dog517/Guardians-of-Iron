@@ -1,0 +1,6 @@
+entity = {
+	name = "treemesh"
+	pdxmesh = "treemesh"
+	
+	scale = 1.0
+}

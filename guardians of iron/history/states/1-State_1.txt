@@ -1,0 +1,19 @@
+state={
+	id=1
+	name="Island of Hoole"
+	provinces={
+		1048 1598 1624 813 1996
+		}
+	buildings_max_level_factor=1.000
+        manpower=100
+        state_category = metropolis
+	history={
+		owner = KOG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+		add_core_of = KOG
+	}
+}
