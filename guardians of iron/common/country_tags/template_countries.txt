@@ -1,2 +1,0 @@
-KOG = "countries/Kingdom of Gahoole.txt"
-PUR = "countries/Pure Ones.txt"

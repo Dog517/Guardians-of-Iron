@@ -1,11 +1,11 @@
 type={
 type="treemesh"
 use_animation=no
-scale=1
+scale=0.6
 object={
 name="treemesh"
 position={
-1018.000 1.000 741.000 # X Y Z
+1018.000 0.000 741.000 # X Y Z
 }
 rotation={
 000.000 000.000 000.000
