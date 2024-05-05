@@ -6,12 +6,3 @@ PUR = {
 	color = rgb { 220 0 0 }
 	color_ui = rgb { 220 0 0 }
 }
-MID = {
-	color = rgb { 255 255 255 }
-	color_ui = rgb { 255 255 255 }
-}
-DUN = {
-	color = rgb { 152 255 255 }
-	color_ui = rgb { 152 255 255 }
-	
-}

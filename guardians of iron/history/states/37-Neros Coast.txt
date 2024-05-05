@@ -1,0 +1,10 @@
+state={
+	id=37
+	name="Neros Coast"
+	provinces={
+		62 102 473 576 654 1186 1465 1560 1773 2188 2195 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

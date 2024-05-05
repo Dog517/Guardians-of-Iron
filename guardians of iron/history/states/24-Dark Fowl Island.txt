@@ -1,0 +1,10 @@
+state={
+	id=24
+	name="Dark Fowl Island"
+	provinces={
+		127 551 661 817 916 1133 1853 1956 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

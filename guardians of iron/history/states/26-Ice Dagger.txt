@@ -1,0 +1,10 @@
+state={
+	id=26
+	name="Ice Dagger"
+	provinces={
+		735 832 995 1554 1574 1811 1962 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

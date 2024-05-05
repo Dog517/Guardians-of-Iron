@@ -1,0 +1,10 @@
+state={
+	id=32
+	name="Glauxian Brothers Retreat"
+	provinces={
+		15 144 482 1266 1370 1728 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
