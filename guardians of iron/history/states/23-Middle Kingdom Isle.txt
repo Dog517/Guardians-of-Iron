@@ -1,0 +1,13 @@
+state={
+	id=23
+	name="Jouzhenkyn Isles"
+	provinces={
+		12 30 128 481 679 816 1009 1250 1308 1470 1545 1642 1673 1751 1886 1903 1905 2198 2199 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = MID
+	}
+}

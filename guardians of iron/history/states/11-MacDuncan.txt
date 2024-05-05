@@ -1,0 +1,13 @@
+state={
+	id=11
+	name="Central Beyond"
+	provinces={
+		267 278 462 500 703 708 718 756 951 997 1192 1346 1477 1717 1944 1958 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = DUN
+	}
+}

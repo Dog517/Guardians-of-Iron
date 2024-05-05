@@ -1,0 +1,10 @@
+state={
+	id=15
+	name="Midwest Beyond"
+	provinces={
+		366 567 789 1462 1563 1975 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

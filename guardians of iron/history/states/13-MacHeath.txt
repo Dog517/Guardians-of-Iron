@@ -1,0 +1,10 @@
+state={
+	id=13
+	name="Northern Beyond"
+	provinces={
+		1011 1945
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,10 @@
+state={
+	id=14
+	name="Western Beyond"
+	provinces={
+		51 282 333 354 404 505 515 984 1162 1300 1345 1365 1491 1549 1732 1970 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

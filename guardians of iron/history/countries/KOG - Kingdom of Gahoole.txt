@@ -53,10 +53,10 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Soren"
+	name = "King Coryn"
 	desc = ""
 	picture = GFX_portrait_Ahmed_Ben_Bella
-	ideology = despotism
+	ideology = liberalism
 	traits = {
 		#
 	}

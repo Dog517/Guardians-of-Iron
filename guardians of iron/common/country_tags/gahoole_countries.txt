@@ -1,2 +1,4 @@
 KOG = "countries/Kingdom of Gahoole.txt"
 PUR = "countries/Pure Ones.txt"
+MID = "countries/Jouzhenkyn.txt"
+DUN = "countries/MacDuncan Clan.txt"

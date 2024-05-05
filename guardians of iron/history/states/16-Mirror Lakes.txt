@@ -1,0 +1,10 @@
+state={
+	id=16
+	name="Mirror Lakes"
+	provinces={
+		464 855 1117 1234 1305 1459 2056 4066 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

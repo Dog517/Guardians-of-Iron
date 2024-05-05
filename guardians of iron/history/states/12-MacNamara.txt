@@ -1,0 +1,10 @@
+state={
+	id=12
+	name="Far Northern Beyond"
+	provinces={
+		100 312 664 684 989 1307 1355 1785 1928 1937 1938 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

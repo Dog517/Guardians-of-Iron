@@ -1,4 +1,4 @@
-﻿capital = 3
+capital = 22
 
 # Starting tech
 set_technology = {
@@ -23,40 +23,40 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 3
-	fascism =  90
-	communism = 5
-	neutrality = 2
+	democratic = 10
+	fascism =  5
+	communism = 25
+	neutrality = 60
 }
 
 1939.1.1 = {
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 3
-	fascism =  90
-	communism = 5
-	neutrality = 2
+	democratic = 10
+	fascism =  5
+	communism = 25
+	neutrality = 60
 }
 }
 
 create_country_leader = {
-	name = "General Nyra"
+	name = "High Steward"
 	desc = ""
 	picture = GFX_portrait_Ahmed_Ben_Bella
-	ideology = rexism
+	ideology = despotism
 	traits = {
 		#
 	}
