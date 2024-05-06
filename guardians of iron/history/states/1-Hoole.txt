@@ -5,7 +5,7 @@ state={
 		1048 1598 1624 813 1996
 		}
 	buildings_max_level_factor=1.000
-        manpower=100
+        manpower=5000
         state_category = metropolis
 	history={
 		owner = KOG

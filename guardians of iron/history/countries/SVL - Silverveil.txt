@@ -23,42 +23,40 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = noauthority
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 0
-	fascism =  0
-	communism = 0
-	neutrality = 100
+	democratic = 10
+	fascism =  5
+	communism = 5
+	noauthority = 80
 }
 
 1939.1.1 = {
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = noauthority
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 0
-	fascism =  0
-	communism = 0
-	neutrality = 100
+	democratic = 10
+	fascism =  5
+	communism = 5
+	noauthority = 80
 }
 }
 create_country_leader = {
-	name = "silverveil"
+	name = "No Official Ruler"
 	desc = ""
-	picture = "portrait_MetalBeak.dds"
-	ideology = nazism
+	picture = "portrait_None.dds"
+	ideology = noauthority
 	traits = {
-		DEN_fascist_militarist
-		autocratic_imperialist
+		cabinet_crisis
 	}
-
 }

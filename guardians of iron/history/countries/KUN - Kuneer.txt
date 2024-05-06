@@ -23,7 +23,7 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = noauthority
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -33,12 +33,12 @@ set_popularities = {
 	democratic = 10
 	fascism =  20
 	communism = 5
-	neutrality = 65
+	noauthority = 65
 }
 
 1939.1.1 = {
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = noauthority
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -48,15 +48,16 @@ set_popularities = {
 	democratic = 10
 	fascism =  20
 	communism = 5
-	neutrality = 65
+	noauthority = 65
 }
 }
 
 create_country_leader = {
-	name = "King Whatshisface"
+	name = "No Official Ruler"
 	desc = ""
-	picture = "portrait_Rosemary.dds"
-	ideology = despotism
+	picture = "portrait_None.dds"
+	ideology = noauthority
 	traits = {
+		cabinet_crisis
 	}
 }

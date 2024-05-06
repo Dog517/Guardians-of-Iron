@@ -55,7 +55,7 @@ set_popularities = {
 create_country_leader = {
 	name = "King mirror5"
 	desc = ""
-	picture = "portrait_Rosemary.dds"
+	picture = "portrait_None.dds"
 	ideology = despotism
 	traits = {
 	}
