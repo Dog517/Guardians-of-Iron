@@ -1,4 +1,4 @@
-capital = 3
+capital = 18
 
 # Starting tech
 set_technology = {
@@ -23,41 +23,40 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 1
-	fascism =  99
-	communism = 0
-	neutrality = 0
+	democratic = 10
+	fascism =  20
+	communism = 5
+	neutrality = 65
 }
 
 1939.1.1 = {
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 1
-	fascism =  99
-	communism = 0
-	neutrality = 0
+	democratic = 10
+	fascism =  20
+	communism = 5
+	neutrality = 65
 }
 }
+
 create_country_leader = {
-	name = "Ablah General Skench and Lieutenant Spoorn"
+	name = "King Whatshisface"
 	desc = ""
-	picture = "portrait_Skench.dds"
-	ideology = rexism
+	picture = "portrait_Rosemary.dds"
+	ideology = despotism
 	traits = {
-		anti_democrat
-		NOR_ruthless_administrator
 	}
 }
