@@ -1,2 +1,4 @@
 KOG = "countries/Kingdom of Gahoole.txt"
 PUR = "countries/Pure Ones.txt"
+AGG = "countries/Aggies.txt"
+AMB = "countries/Ambala.txt"

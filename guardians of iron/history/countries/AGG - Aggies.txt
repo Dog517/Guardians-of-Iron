@@ -1,4 +1,4 @@
-﻿capital = 38
+capital = 3
 
 # Starting tech
 set_technology = {
@@ -30,10 +30,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 3
-	fascism =  90
-	communism = 5
-	neutrality = 2
+	democratic = 1
+	fascism =  99
+	communism = 0
+	neutrality = 0
 }
 
 1939.1.1 = {
@@ -45,20 +45,19 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 3
-	fascism =  90
-	communism = 5
-	neutrality = 2
+	democratic = 1
+	fascism =  99
+	communism = 0
+	neutrality = 0
 }
 }
 create_country_leader = {
-	name = "Metal Beak"
+	name = "Ablah General Skench"
 	desc = ""
-	picture = "portrait_MetalBeak.dds"
+	picture = "portrait_Skench.dds"
 	ideology = fascism_ideology
 	traits = {
-		DEN_fascist_militarist
-		autocratic_imperialist
+		anti_democrat
+		NOR_ruthless_administrator
 	}
-
 }

@@ -1,0 +1,13 @@
+state={
+	id=38
+	name="Castle Stronghold"
+	provinces={
+		2059 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history = {
+		owner = PUR
+	}
+}
