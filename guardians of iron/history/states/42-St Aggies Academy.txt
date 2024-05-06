@@ -1,0 +1,15 @@
+state={
+	id=42
+	name="St. Aegolius's Academy for Orphaned Owls"
+	provinces={
+		683 987 1226 1639 
+	}
+        manpower=6500
+        state_category = large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history = {
+		add_core_of = AGG
+		owner = AGG
+}
+}

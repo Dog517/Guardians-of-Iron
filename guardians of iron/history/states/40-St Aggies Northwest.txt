@@ -1,0 +1,15 @@
+state={
+	id=40
+	name="St. Aegolius's Canyons Northwest"
+	provinces={
+		370 812 895 999 1088 1159 1330 1442 
+	}
+        manpower=500
+        state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history = {
+		add_core_of = AGG
+		owner = AGG
+}
+}

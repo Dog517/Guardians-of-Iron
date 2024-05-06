@@ -1,0 +1,15 @@
+state={
+	id=44
+	name="St. Aegolius's Canyons Central"
+	provinces={
+		218 304 510 839 1001 2112 
+	}
+        manpower=700
+        state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history = {
+		add_core_of = AGG
+		owner = AGG
+}
+}
