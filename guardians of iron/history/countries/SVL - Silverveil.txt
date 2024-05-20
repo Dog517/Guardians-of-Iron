@@ -30,10 +30,10 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 10
-	fascism =  5
-	communism = 5
-	noauthority = 80
+	liberalism = 10
+	purism =  20
+	militarism = 5
+	noauthority = 65
 }
 
 1939.1.1 = {
@@ -45,17 +45,17 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 10
-	fascism =  5
-	communism = 5
-	noauthority = 80
+	liberalism = 10
+	purism =  20
+	militarism = 5
+	noauthority = 65
 }
 }
 create_country_leader = {
 	name = "No Official Ruler"
 	desc = ""
 	picture = "portrait_None.dds"
-	ideology = noauthority
+	ideology = nogov
 	traits = {
 		cabinet_crisis
 	}

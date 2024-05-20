@@ -1,0 +1,31 @@
+ideologies = {
+	
+	liberalism = {
+	
+		types = {
+			libertism = {
+                }
+		}
+		color = { 245 220 0 } # RGB ideology colour, used in the political pie chart or next to the chart if subideology of country leader dont have its own color. 
+		
+		rules = { # Rules for the ideology.  (yes/no)
+            can_create_collaboration_government = yes # Can create a collaboration government
+			can_declare_war_on_same_ideology = no # Declare war on same ideology. Not required
+			can_force_government = yes # Can change ideology in peace deal. Required
+			can_send_volunteers = yes # Can send volunteers. Required
+			can_puppet = yes # Can puppet a nation at peace deal. Required
+			can_lower_tension = yes # Lowers tension at peace deal. Not required
+			can_only_justify_war_on_threat_country = yes # Can only justify on a nation that has generated world tension/threat. Not required
+			can_guarantee_other_ideologies = yes # Can guarantee nations with different ideologies. Not required
+		}
+
+                can_host_government_in_exile = no #Can host a government in exile
+		
+		war_impact_on_world_tension = 0.75 # Goes from -1 to 1. Increases or decreases the world tension created by this nation
+		faction_impact_on_world_tension = 0.5 # Goes from -1 to 1. Increases or decreases a faction of this ideologies impact on tension
+
+		can_be_boosted = yes # Can you boost this ideologies popularity in another country (yes/no)
+		can_collaborate = yes # Can create collaboration governments
+		ai_democratic = yes # Determines what ai this ideology will use (democratic, communism, fascism, neutral)
+	}
+}

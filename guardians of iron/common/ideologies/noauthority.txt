@@ -3,7 +3,7 @@ ideologies = {
 	noauthority = {
 	
 		types = {
-			noauthority = { # Used when assigning ideologies to leaders. Eg. democratic has conservatism, liberalism, and socialism. One value can be defined (yes/no)
+			nogov = { # Used when assigning ideologies to leaders. Eg. democratic has conservatism, liberalism, and socialism. One value can be defined (yes/no)
 				can_be_randomly_selected = yes # If no, the subideology will not be randomly selected when creating a new random leader.
 				color = { 255 255 255 } # Optional - if dont has, subideology has color of ideology.
 			}

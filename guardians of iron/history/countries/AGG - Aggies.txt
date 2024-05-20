@@ -23,41 +23,50 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = militarism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 1
-	fascism =  99
-	communism = 0
-	neutrality = 0
+	liberalism = 1
+	militarism =  99
+	purism = 0
+	noauthority = 0
 }
 
 1939.1.1 = {
 set_politics = {
-	ruling_party = fascism
+	ruling_party = militarism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 1
-	fascism =  99
-	communism = 0
-	neutrality = 0
+	liberalism = 1
+	militarism =  99
+	purism = 0
+	noauthority = 0
 }
 }
 create_country_leader = {
 	name = "Ablah General Skench and Lieutenant Spoorn"
 	desc = ""
 	picture = "portrait_Skench.dds"
-	ideology = rexism
+	ideology = dyadism
 	traits = {
 		anti_democrat
 		NOR_ruthless_administrator
+	}
+}
+create_country_leader = {
+	name = "12-8"
+	desc = ""
+	picture = "portrait_Skench.dds"
+	ideology = libertism
+	traits = {
+		baltic_revolutionary
 	}
 }
