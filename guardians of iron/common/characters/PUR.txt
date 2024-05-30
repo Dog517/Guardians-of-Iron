@@ -1,0 +1,15 @@
+characters={
+	PUR_metal={
+		name = PUR_metal
+		portraits = {
+			civilian = {
+				large = GFX_portrait_metal
+			}
+		}
+		country_leader={
+			ideology = tytoism
+			desc = PUR_DESC_metal
+			traits = { DEN_fascist_militarist autocratic_imperialist }
+		}
+	}
+}

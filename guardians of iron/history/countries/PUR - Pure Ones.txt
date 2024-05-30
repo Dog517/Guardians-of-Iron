@@ -1,5 +1,9 @@
 ﻿capital = 38
 
+
+recruit_character = PUR_metal
+
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -51,14 +55,4 @@ set_popularities = {
 	noauthority = 2
 }
 }
-create_country_leader = {
-	name = "Metal Beak"
-	desc = ""
-	picture = "portrait_MetalBeak.dds"
-	ideology = tytoism
-	traits = {
-		DEN_fascist_militarist
-		autocratic_imperialist
-	}
 
-}

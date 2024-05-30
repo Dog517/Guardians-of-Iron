@@ -1,8 +1,8 @@
 spriteTypes = { 
 	##Icon For: test
 	SpriteType = { 
-		name = "test_test-1"
-		texturefile = "gfx/interface/events/testing-event/test_test-1.dds"
+		name = "intro-1"
+		texturefile = "gfx/interface/events/intro/intro-1.dds"
 	}
 
  

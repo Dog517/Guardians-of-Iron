@@ -1,6 +1,6 @@
 spriteTypes = {
 
-	# AGG
+	# St. Aggies
 	
 	spriteType = {
 		name = "GFX_portrait_skench_spoorn"
@@ -9,5 +9,17 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_portrait_hortense"
 		texturefile = "gfx/leaders/AGG/portrait_AGG_Hortense.dds"
+	}
+	
+	# Pure Ones
+	spriteType = {
+		name = "GFX_portrait_metal"
+		texturefile = "gfx/leaders/PUR/portrait_PUR_metal.dds"
+	}
+	
+	# Ga'Hoole
+	spriteType = {
+		name = "GFX_portrait_boron"
+		texturefile = "gfx/leaders/KOG/portrait_KOG_boron.dds"
 	}
 }

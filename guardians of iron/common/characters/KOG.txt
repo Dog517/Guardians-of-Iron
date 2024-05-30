@@ -1,0 +1,15 @@
+characters={
+	KOG_boron={
+		name = KOG_boron
+		portraits = {
+			civilian = {
+				large = GFX_portrait_boron
+			}
+		}
+		country_leader={
+			ideology = libertism
+			desc = KOG_DESC_boron
+			traits = { popular_figurehead constitutional_monarch }
+		}
+	}
+}
