@@ -1,0 +1,39 @@
+bookmarks = {
+	bookmark = {
+		name = "TEST"
+		desc = "TEST"
+		date = 1236.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "KOG"
+		default = yes
+		
+		"AGG"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = militarism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"KOG"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = liberalism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"PUR"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = purism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

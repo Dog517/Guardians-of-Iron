@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	# AGG
+	
+	spriteType = {
+		name = "GFX_portrait_skench_spoorn"
+		texturefile = "gfx/leaders/AGG/portrait_AGG_Skench_Spoorn.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_hortense"
+		texturefile = "gfx/leaders/AGG/portrait_AGG_Hortense.dds"
+	}
+}

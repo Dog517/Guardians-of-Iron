@@ -1,5 +1,11 @@
 capital = 42
 
+
+recruit_character = AGG_skench_spoorn
+recruit_character = AGG_hortense
+
+
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -50,23 +56,4 @@ set_popularities = {
 	purism = 0
 	noauthority = 0
 }
-}
-create_country_leader = {
-	name = "Ablah General Skench and Lieutenant Spoorn"
-	desc = ""
-	picture = "portrait_Skench.dds"
-	ideology = dyadism
-	traits = {
-		anti_democrat
-		NOR_ruthless_administrator
-	}
-}
-create_country_leader = {
-	name = "12-8"
-	desc = ""
-	picture = "portrait_Skench.dds"
-	ideology = libertism
-	traits = {
-		baltic_revolutionary
-	}
 }
