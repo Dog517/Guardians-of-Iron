@@ -10,8 +10,8 @@ state={
 
 	local_supplies=0.000
 	history = {
-		victory_points = { 1238 40 } #Brad
-		victory_points = { 1051 25} #someshit
+		victory_points = { 1238 50 } #Brad
+		victory_points = { 1051 25} #The Eagle's Aerie
 		add_core_of = AMB
 		owner = AMB
 }

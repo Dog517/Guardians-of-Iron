@@ -1,0 +1,11 @@
+ideas = {
+	country = {
+		recovering_from_civil_war = {
+			picture = recovering_from_civil_war-1547
+			modifier = {
+				stability_factor = -0.7
+				political_power_cost = 0.9
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+spriteTypes = { 
+	##Icon For: Moonblinking
+	SpriteType = { 
+		name = "GFX_idea_JsGotxea-666944"
+		texturefile = "gfx/interface/ideas/aggiesideas/JsGotxea-666944.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_recovering_from_civil_war-1547"
+		texturefile = "gfx/interface/ideas/aggies-ideas/recovering_from_civil_war-1547.dds"
+	}
+
+ 
+ }

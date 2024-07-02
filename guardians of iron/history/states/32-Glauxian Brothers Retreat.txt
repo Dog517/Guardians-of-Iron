@@ -8,4 +8,13 @@ state={
 	state_category = wasteland
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	history = {
+		owner = GBR
+		add_core_of = GBR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+	}
 }

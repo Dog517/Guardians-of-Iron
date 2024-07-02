@@ -1,7 +1,7 @@
-﻿capital = 38
+﻿capital = 32
 
 
-recruit_character = PUR_metal
+recruit_character = GBR_council
 
 
 # Starting tech
@@ -27,32 +27,34 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = purism
+	ruling_party = glaux
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	liberalism = 3
-	purism =  90
+	liberalism = 20
+	purism =  3
 	militarism = 2
-	glaux = 5
+	noauthority = 0
+	glaux = 75
 }
 
 1939.1.1 = {
 set_politics = {
-	ruling_party = purism
+	ruling_party = glaux
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	liberalism = 3
-	purism =  90
+	liberalism = 20
+	purism =  3
 	militarism = 2
-	glaux = 5
+	noauthority = 0
+	glaux = 75
 }
 }
 

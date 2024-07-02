@@ -1,0 +1,12 @@
+ideas = {
+	country = {
+
+		moonblinking = {
+			picture = JsGotxea-666944
+			modifier = {
+				training_time_factor = 0.3
+				conscription = 0.3
+			}
+		}
+	}
+}

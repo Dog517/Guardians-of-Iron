@@ -22,4 +22,9 @@ spriteTypes = {
 		name = "GFX_portrait_boron"
 		texturefile = "gfx/leaders/KOG/portrait_KOG_boron.dds"
 	}
-}
+	#Glauxian Bros
+	spriteType = {
+		name = "GFX_portrait_council"
+		texturefile = "gfx/leaders/GBR/portrait_GBR_council.dds"
+	}
+	}

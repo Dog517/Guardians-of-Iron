@@ -1,0 +1,195 @@
+﻿l_english:
+ #air_l
+ AIRWING_CREATE_NO_MANPOWER:0 "§RCannot create air wing! Not enough service owlpower for it.§!"
+ #alert_l
+ alert_few_manpower_instant:0 "§HLow Owlpower!§!"
+ alert_few_manpower_delayed:0 "We have very low Owlpower. It can lead to situations when our divisions can no longer reinforce and fight."
+ alert_not_enough_garrison_instant:0 "§HNot enough Owlpower or Equipment to fulfill our Garrisons§!"
+ alert_not_enough_garrison_delayed:0 "We are missing $NUM|*H$ Owlpower."
+ #combat_l
+ COMBAT_LOG_MP_LOST_WITH_NAVY_DESC:1 "§HOwlpower lost§!\nLosses to enemy ground forces: $GND|R$\nLosses to enemy airplanes: $AIR|R$\nLosses to enemy navy: $NAVY|R$"
+ COMBAT_SIDE_SUMMARY:0 "$MANPOWER|*1Y$ Owlpower, $VEHICLES|Y$ vehicles, $ARTILLERY|Y$ artillery"
+ WEEKLY_FROM_OTHER_SOURCES:0 "\n§HWe also receive§!:\nWeekly Owlpower: $VALUE|G$"
+
+ #country_l
+ MANPOWER:0 "Owlpower"
+ SERVICE_MANPOWER:1 "£manpower_texticon  Service Owlpower:"
+ SERVICE_MANPOWER_DESC:0 "Service owlpower is used by different types of equipment to maintain its functionality."
+ MAX_MANPOWER:0 "Max Owlpower: "
+ MANPOWER_TOTAL:0 "Total Owlpower: $MAX|0H*$"
+ MANPOWER_USAGE:1 "Free Owlpower: $FREE|^2H$\nUsed Owlpower:\nArmy: $ARMY|^2H$\n    - In the Field: $FIELD|^2H$\n    - In Training: $TRAINING|^2H$\nAir: $AIR|^2H$\nNavy: $NAVAL|^2H$\nGarrison: $GARRISON|^2H$"
+ MANPOWER_CURRENT:0 "Total Owlpower: $TOTAL|^2H$\n$PERC|2%H$ of Eligible Core Population available ($ELIGIBLE|^H$)"
+ MANPOWER_CURRENT_MOBILIZATION:0 "Total Owlpower: $TOTAL|^2H$\n$PERC|2%H$ (about $MOB|+3H%$ is mobilizing per day) of Eligible Core Population available ($ELIGIBLE|^H$)"
+ MANPOWER_DESC:1 "Owlpower is derived from the §HRecruitable Population§! of the country and its occupied territories, and represents the creatures available to the armed forces. Enact stricter §HConscription Laws§! to expand the recruitable population and increase available owlpower."
+ MANPOWER_DIVISION:0 "Division Owlpower"
+ MANPOWER_DIVISION_DESC:0 "§TAmount of soldiers in this §HDivision§!. As soldiers die they receive reinforcements from your country's §HOwlpower§! pool.§!"
+ MANPOWER_DIVISION_SIZE_DESC:0 "§TThis §HDivision§! contains $AMOUNT|G$ troops. As soldiers die they receive reinforcements from your country's §HOwlpower§! pool.§!"
+ MANPOWER_DIVISION_SIZE_BREAKDOWN_DESC:0 "§TThis §HDivision§! contains $AMOUNT|G$ troops. It has owlpower from:§!"
+ MANPOWER_SHIP:0 "Ship Service Owlpower"
+ MANPOWER_SHIP_DESC:0 "§TThis §HShip§! requires $AMOUNT|G$ of service owlpower.§!"
+ MANPOWER_AIRWING:0 "Air Wing Service Owlpower"
+ MANPOWER_AIRWING_DESC:0 "§TThis §HAir Wing§! requires $AMOUNT|G$ of service owlpower.§!"
+ CONSCRIPTION_TOTAL_FACTOR_EXTRA_DESC:0 "\nEffective Total Owlpower modified to $VAL|-%0$ due to\n"
+ MANPOWER_MONTHLY_TOTAL:2 "Monthly available owlpower gain: $VALUE|^+1$($PERC|2%H$)\nTotal population growth: $MAX|^2H$($FACTOR|2%H$ of total population)\n\nBase growth rate: $RATIO|%H$"
+ MANPOWER_IN_USE:0 "Owlpower in Field"
+ MANPOWER_IN_USE_DESC:0 "§TAmount of soldiers in Field. As soldiers die they receive reinforcements from your country's §HOwlpower§! pool.§!"
+ MANPOWER_IN_USE_GARRISON:0 "Owlpower in Garrison"
+ MANPOWER_IN_USE_GARRISON_DESC:0 "§TAmount of soldiers in Garrison. As soldiers die they receive reinforcements from your country's §HOwlpower§! pool.§!"
+ MANPOWER_PROVINCE_TOOLTIP:0 "Owlpower: $VAL|*Y$"
+ NAVAL_SERVICE_MANPOWER_DESC:0 "Service owlpower is used by our navy to maintain its functionality."
+ AIR_SERVICE_MANPOWER_DESC:0 "Service owlpower is used by our air forces to maintain its functionality."
+
+ #deployment_l
+ CONVEYOR_MANPOWER_NEED:0 "Owlpower need: $AMOUNT|H$"
+ DEPLOYMENT_MANPOWER_DESC:0 "Owlpower: $VALUE|Y0$ ( Max $MAX|Y0$ )"
+ DEPLOYMENT_LINES_HIT_THE_CAP:0 "We can train at most $CAP|*H$ soldiers.\nCapped by max owlpower in the field ( $RATIO|H0%$ of $INFIELD|*H$. Minimum: $MINPOSSIBLE|*H$ soldiers)"
+ CONVEYOR_CAN_NOT_MANPOWER_TRAIN:0 "§RNot enough owlpower to train§!"
+ CONVEYOR_CAN_NOT_TRAIN_COUNT:1 "§RNot enough owlpower or equipment to train $DIVS|H$ of the divisions§!"
+ TEMPLATE_PRIO_2_DESC:0 "Units with this template will receive equipment before anyone else once deployed and at highest priority. Use for your best troops and where they can do the most good."
+
+ #designer_l
+ DESIGNER_MANPOWER:0 "Owlpower: "
+ DESIGNER_MANPOWER_DESC:0 "How much Owlpower is required to fill up this division."
+
+ #diplomacy_l
+ ESTIMATED_MANPOWER:0 "Estimated owlpower"
+ DIPLOMACY_MESSAGE_SUBJECT_AUTONOMY_CHANGE_MANPOWER:0 "This will require $VALUE|^2H$ of owlpower from us."
+ DIPLOMACY_ASSUME_FACTION_LEADERSHIP_NOT_ENOUGH_MANPOWER:0 "To sufficiently exceed the deployed owlpower of the current leader and its subjects, we and our subjects need an effective $NEEDED|*Y$ deployed owlpower, but only have $CURRENT|*Y$."
+ DIPLOMACY_ASSUME_FACTION_LEADERSHIP_MANPOWER_PROGRESS:0 "   $CURRENT|*R$ deployed owlpower out of $NEEDED|*Y$ needed."
+
+ DIPLOMACY_REQUEST_FOREIGN_MANPOWER_ACTION_DESC:0 "Request foreign owlpower to fulfill our Garrisons."
+ DIPLOMACY_REQUEST_FOREIGN_MANPOWER_ACTION_DESC_MORE:0 "Request more foreign owlpower to fulfill our Garrisons.\n(We already have $NUMBER|H*$ owlpower from this country)"
+ DIPLOMACY_REQUEST_FOREIGN_MANPOWER_REQUEST_DESC:2 "$COUNTRY|UY$ requests owlpower for their Garrisons."
+ DIPLOMACY_REQUEST_FOREIGN_MANPOWER_REQUEST_DESC_MORE:0 "$COUNTRY|UY$ requests more owlpower for their Garrisons.\nThey already have $NUMBER|H*$ owlpower from us."
+ DIPLOMACY_REQUEST_FOREIGN_MANPOWER_REQUEST_DETAILS:0 "Owlpower needed to maintain their policies: $NEEDED|H*$ \nCurrent total Foreign Owlpower in their stock: $CURRENT|H*$"
+ DIPLOMACY_CANCEL_FOREIGN_MANPOWER_ACTION_DESC:1 "Pull back the owlpower we gave for their Garrisons ($NUMBER|H*$)."
+ DIPLOMACY_CANCEL_FOREIGN_MANPOWER_MESSAGE_ACTION_DESC:1 "$COUNTRY|UY$ cancels Garrison support.\n\nThey pull back the owlpower they gave ($NUMBER|H*$)."
+ DIPLOMACY_MESSAGE_ACCEPTED_MESSAGE_DIPLOMACY_REQUEST_FOREIGN_MANPOWER:0 "$COUNTRY|UY$ has §Gaccepted§! our request for Garrison support.\n\nThey gave us $MANPOWER|H*$ Owlpower."
+ foreign_manpower_initiator_desc:0 "$COUNTRY|UY$ is giving owlpower to other nations for their Garrisons"
+ foreign_manpower_initiator_extended_desc:0 "$COUNTRY1|UY$ is giving owlpower to $COUNTRY2|Y$ for their Garrisons"
+ foreign_manpower_receiver_desc:0 "$COUNTRY|UY$ is using owlpower from other nations for their Garrisons"
+ foreign_manpower_receiver_extended_desc:0 "$COUNTRY1|UY$ is using owlpower from $COUNTRY2|Y$ for their Garrisons"
+ FOREIGN_MANPOWER_REASON_NO_NEED:1 "We don't really need more Foreign Owlpower: "
+ FOREIGN_MANPOWER_REASON_NOT_ENOUGH:1 "$COUNTRY|UY$ doesn't have enough Owlpower to give to us: "
+ FOREIGN_MANPOWER_REASON_ALREADY_ENOUGH:1 "$COUNTRY|UY$ doesn't want to give us more Owlpower: "
+ FOREIGN_MANPOWER_REASON_COOLDOWN:0 "$COUNTRY|UY$ gave us Owlpower recently. They will not accept a new request before $DATE|H$: "
+ DIPLOMACY_NUMBER_FOREIGN_MANPOWER_SENT:0 "Send $MANPOWER|H$ Owlpower to $COUNTRY|H$."
+ foreign_manpower_initiator_desc:0 "$COUNTRY|UY$ is giving owlpower to other nations for their Garrisons"
+ foreign_manpower_initiator_extended_desc:0 "$COUNTRY1|UY$ is giving owlpower to $COUNTRY2|Y$ for their Garrisons"
+ foreign_manpower_receiver_desc:0 "$COUNTRY|UY$ is using owlpower from other nations for their Garrisons"
+ foreign_manpower_receiver_extended_desc:0 "$COUNTRY1|UY$ is using owlpower from $COUNTRY2|Y$ for their Garrisons"
+ FOREIGN_MANPOWER_REASON_NO_NEED:1 "We don't really need more Foreign Owlpower: "
+ FOREIGN_MANPOWER_REASON_NOT_ENOUGH:1 "$COUNTRY|UY$ doesn't have enough Owlpower to give to us: "
+ FOREIGN_MANPOWER_REASON_ALREADY_ENOUGH:1 "$COUNTRY|UY$ doesn't want to give us more Owlpower: "
+ FOREIGN_MANPOWER_REASON_COOLDOWN:0 "$COUNTRY|UY$ gave us Owlpower recently. They will not accept a new request before $DATE|H$: "
+ DIPLOMACY_NUMBER_FOREIGN_MANPOWER_SENT:0 "Send $MANPOWER|H$ Owlpower to $COUNTRY|H$."
+ DIPLOMACY_REQUEST_FOREIGN_MANPOWER_ACTION_DESC:0 "Request foreign owlpower to fulfill our Garrisons."
+ DIPLOMACY_REQUEST_FOREIGN_MANPOWER_ACTION_DESC_MORE:0 "Request more foreign owlpower to fulfill our Garrisons.\n(We already have $NUMBER|H*$ owlpower from this country)"
+
+ #effect_l
+ EFFECT_MANPOWER_ADD_COUNTRY:0 "Owlpower: $VAL|+=0$."
+
+ # focus_filter_tag_l
+ FOCUS_FILTER_MANPOWER:0 "Owlpower"
+
+ #government_in_exile_l
+ EXILE_MANPOWER_DAILY_GROWTH:1 "Daily §HExiled Veteran Owlpower§! Growth: $AMOUNT|H^$"
+ EXILE_MANPOWER_EXPLANATION_DELAYED_HOST:0 "We can use $EXILEADJ|H$ §HExiled Veteran Owlpower§! to recruit §HExile Air Wings§! and §HExile Veteran Divisions§! when they have sufficient §HLegitimacy§!."
+ EXILE_MANPOWER_EXPLANATION_DELAYED_EXILE_PLAYER:0 "§HExiled Veteran Owlpower§! is used by our host ($HOSTNAMEDEF|UH$) to recruit §HExile Air Wings§! and §HExile Veteran Divisions§! when we have sufficient §HLegitimacy§!."
+ GIE_AIRWING_SELECT_MANPOWER_BUTTON_EXILE:1 "We are currently using $COUNTRYADJ|H$ §HExiled Veteran Owlpower§!."
+ GIE_AIRWING_SELECT_MANPOWER_BUTTON_OWN:0 "We are currently using $COUNTRYADJ|H$ §HOwlpower§!."
+ GIE_AIRWING_SELECT_MANPOWER_EXILE_AVAILABLE:0 "Click to select which §HOwlpower§! to use for this §HAir Wing§!."
+ GIE_RECRUITMENT_LOCKED_HOST:0 "$COUNTRY|HU$ needs to have $VALUE|0H$ §HLegitimacy§! before we can recruit $TYPE|H$ using §HExiled Veteran Owlpower§!."
+ GIE_RECRUITMENT_LOCKED_EXILE_PLAYER:0 "We need to have $VALUE|0H$ §HLegitimacy§! before $HOSTNAMEDEF|H$ can recruit $TYPE|H$ using §HExiled Veteran Owlpower§!."
+ GIE_AIRWING_RECRUITMENT_SELECT_EXILE:1 "Click to use $COUNTRYADJ|H$ §HExiled Veteran Owlpower§!."
+ GIE_AIRWING_RECRUITMENT_SELECT_OWNER:0 "Click to use $COUNTRYADJ|H$ §HOwlpower§!."
+ COUNTRYVIEW_GIE_INFO:0 "Our host ($HOSTNAMEDEF|H$) benefits from higher §HLegitimacy§!\n§HLegitimacy§! affects §HExiled Veteran Owlpower§! trickle to host and regular owlpower for us.\n\n§HExile Veteran Divisions§! get combat bonuses against $OCCUPIERLIST$\n     - Attack: $ATK_VS_OCCUPIER|%0+$\n     - Defense: $DEF_VS_OCCUPIER|%+0$\nAdditional bonuses when fighting on our cores:\n     - Attack: $ATK_ON_CORE|%+0$\n     - Defense: $DEF_ON_CORE|%+0$"
+
+ #intel_ledger_l
+ INTEL_LEDGER_MANPOWER_TOOLTIP:0 "Available Owlpower: $RANGE|H$"
+ INTEL_LEDGER_FIELDED_MANPOWER_TOOLTIP:0 "Fielded Owlpower:"
+ INTEL_LEDGER_DEPLOYED_MANPOWER_COUNT:0 "Deployed Army Owlpower: $AMOUNT|H$"
+ INTEL_LEDGER_DEPLOYED_MANPOWER_COUNT_WITH_CAP:0 "Deployed Army Owlpower: $AMOUNT|H$ (Requires Army Intel: $MIN|H.0%$)"
+ INTEL_LEDGER_DEPLOYED_NAVY_MANPOWER_COUNT:0 "Deployed Navy Owlpower: $AMOUNT|H$"
+ INTEL_LEDGER_DEPLOYED_NAVY_MANPOWER_COUNT_WITH_CAP:0 "Deployed Navy Owlpower: $AMOUNT|H$ (Requires Navy Intel: $MIN|H.0%$)"
+ INTEL_LEDGER_DEPLOYED_AIR_MANPOWER_COUNT:0 "Deployed Airforce Owlpower: $AMOUNT|H$"
+ INTEL_LEDGER_DEPLOYED_AIR_MANPOWER_COUNT_WITH_CAP:0 "Deployed Airforce Owlpower: $AMOUNT|H$ (Requires Air Intel: $MIN|H.0%$)"
+ CIV_LEDGER_THRESHOLD_FUZZY_TOTAL_MANPOWER:1 "Approximate Total Available Owlpower"
+ CIV_LEDGER_THRESHOLD_MANPOWER:0 "Total Available Owlpower"
+ ARMY_LEDGER_THRESHOLD_DEPLOYED_MANPOWER:0 "Fielded Army Owlpower"
+ ARMY_LEDGER_THRESHOLD_FUZZY_DEPLOYED_MANPOWER:1 "Approximate Fielded Owlpower"
+ NAVY_LEDGER_THRESHOLD_FIELDED_MANPOWER:0 "Deployed Naval Owlpower"
+ NAVY_LEDGER_THRESHOLD_FUZZY_FIELDED_MANPOWER:1 "Approximate Deployed Naval Owlpower"
+ AIR_LEDGER_THRESHOLD_FIELDED_MANPOWER:0 "Fielded Air Owlpower"
+ AIR_LEDGER_THRESHOLD_FUZZY_FIELDED_MANPOWER:1 "Approximate Fielded Air Owlpower"
+
+ MODIFIER_LOCAL_MANPOWER:0 "Local Owlpower"
+ MODIFIER_CONSCRIPTION_FACTOR_DESC:0 "Modifies how much your owlpower you can access from states."
+ MODIFIER_CONSCRIPTION_TOTAL_FACTOR_DESC:0 "Modifies how much your owlpower you can access from states."
+ MODIFIER_AUTONOMY_MANPOWER_SHARE:0 "Subject owlpower requirement"
+ MODIFIER_AUTONOMY_MANPOWER_SHARE_DESC:0 "Amount of owlpower required by subject forces"
+ MODIFIER_LOCAL_NON_CORE_MANPOWER:0 "Local Non-Core Owlpower"
+ MODIFIER_GLOBAL_NON_CORE_MANPOWER:0 "Non-Core Owlpower"
+ MODIFIER_EQUIPMENT_CAPTURE:0 "Equipment Capture Ratio Gain"
+ MODIFIER_PRODUCTION_FACTORY_EFFICIENCY_GAIN_FACTOR:0 "£prod_eff Production Efficiency Growth"
+ MODIFIER_WEEKLY_MANPOWER:0 "Weekly Owlpower"
+ MODIFIER_EXILED_MAPOWER_GAIN_FACTOR:0 "Daily Exile Owlpower"
+ MODIFIER_EXILED_GOVERNMENT_WEEKLY_MANPOWER:0 "Weekly Exiled Government Owlpower"
+ MODIFIER_AIR_MANPOWER_REQUIREMENT_FACTOR:0 "Air owlpower requirement "
+
+ #operatives_l
+ OPERATIVE_FORCED_INTO_HIDING:0 "§RForced into hiding§!"
+ CANNOT_RECRUITE_OPERATIVE_NO_SLOT_DESC:5 "You can get the first slot by forming the network. Other slots will be available after the 5th upgrade or after assigning §HIllusive Gentlebeing§! advisor.\nAs a spymaster, more slipgizzle slots are unlocked by having more countries in your faction. Puppets or countries with very low factory counts do not contribute to more slipgizzle slots."
+
+ #production_l
+ PRODUCTION_CAN_NOT_DEPLOY_MANPOWER:0 "Insufficient Owlpower"
+ PROD_LINE_PLANE_DEST_RESERVES_DUE_TO_MANPOWER:0 "Moved to §YReserves§! due insufficient §HOwlpower§! for the requested §YReinforcements§!"
+
+ #resistance_and_occupation_l
+ OCCUPIED_COUNTRY_MANPOWER_TOOLTIP:0 "There is $NUM_TOTAL_MANPOWER|*H$ population in the states you are controlling and with your current law and other modifiers you are able to access $RATIO|.1H%$ ($NUM_ACCESSED_MANPOWER|*H$) of that owlpower."
+ GARRISON_ENTRY_MANPOWER_TOOLTIP:0 "Owlpower per suppression: $MANPOWER|*H$\nOwlpower per division: $MANPOWERDIV|*H$"
+ FOREIGN_SUPPORT_TOOLTIP:0 "Owlpower provided by other countries."
+
+ #state_l
+ STATE_POPULATION_DESC:1 "The number of people living in this state. Your conscription laws let you use a certain % as owlpower for your divisions, ships and planes."
+ STATE_OWNER_RESISTANCE_NON_CORE_INFO:0 "$COUNTRY|H$ will only have access to $MANPOWER|-%.0$ of the state's owlpower."
+ STATE_OWNER_RESISTANCE_NON_CORE_INFO_WITH_MODIFIERS:0 "$COUNTRY|H$ will only have access to $MANPOWER|-%.0$ of the state's owlpower and on top of that it will get following modifiers because of its occupation status:"
+
+ #stats_l
+ STAT_ARMY_CASUALTY_TRICKLEBACK_DESC:0 "The proportion of losses in combat that can be saved and returned to the owlpower pool."
+ STAT_CASUALTY_TRICKLEBACK_DESC:0 "What percentage of owlpower makes it back to the owlpower pool after being wounded in combat."
+
+ #triggers_l
+ TRIGGER_HAS_ARMY_MANPOWER_AT_LEAST:0 "At least $AMOUNT|*2H$ owlpower in divisions in the field"
+ TRIGGER_HAS_ARMY_MANPOWER_AT_MOST:0 "At most $AMOUNT|*2H$ owlpower in divisions in the field"
+ TRIGGER_HAS_ARMY_MANPOWER_OF_TYPE_AT_LEAST:0 "At least $AMOUNT|*2H$ owlpower in $TYPE|H$ divisions"
+ TRIGGER_HAS_ARMY_MANPOWER_OF_TYPE_AT_MOST:0 "At most $AMOUNT|*2H$ owlpower in $TYPE|H$ divisions"
+ TRIGGER_HAS_MANPOWER_MORE_THAN:0 "More Owlpower than $NUMBER|*H$"
+ TRIGGER_HAS_MANPOWER_LESS_THAN:0 "Less Owlpower than $NUMBER|*H$"
+ TRIGGER_HAS_FOREIGN_MANPOWER_MORE_THAN:0 "More Foreign Owlpower than $NUMBER|*H$"
+ TRIGGER_HAS_FOREIGN_MANPOWER_LESS_THAN:0 "Less Foreign Owlpower than $NUMBER|*H$"
+ TRIGGER_GARRISON_MANPOWER_NEED_MORE_THAN:0 "Garrisons need more Owlpower than $NUMBER|*H$"
+ TRIGGER_GARRISON_MANPOWER_NEED_LESS_THAN:0 "Garrisons need less Owlpower than $NUMBER|*H$"
+ TRIGGER_RECRUIT_HAS_MANPOWER:0 "Free Owlpower at least $NUMBER|*H$"
+ TRIGGER_RECRUIT_HAS_NOT_MANPOWER:0 "Free Owlpower at most $NUMBER|*H$"
+ TRIGGER_MANPOWER_PER_FACTORY:0 "owlpower per military factory"
+ TRIGGER_MANPOWER_IN_DEPLOYMENT_QUEUE:0 "owlpower in deployment queue"
+ TRIGGER_ARMY_MANPOWER_IN_STATE_OF_TYPE:0 "owlpower deployed in $STATE|H$ from $TYPE|H$ divisions."
+ TRIGGER_ARMY_MANPOWER_IN_STATE:0 "owlpower deployed in $STATE|H$."
+ can_unlock_new_special_forces_tree_none: "£trigger_yes §HBranch Specialisms§! Remaining: §H2§!"
+
+
+ #unit_l
+ CURRENT_MANPOWER:0 " - Current Owlpower: $VAL|*H1$ ($PER|%0H$)\n"
+ UNIT_STAT_MANPOWER:0 "§TCurrent §Owlpower§! is $VAL|H$ out of $MAX|H$§!"
+ recon:1 "Recon Detachment"
+ light_tank_recon_desc:0 "Using light tanks in a recon role, we can conduct reconnaissance by fire and get a better understanding of what we are facing."
+ SERVICE_MANPOWER_HEADER:0 "Service Owlpower"
+ LOW_MANPOWER_STAT_EFFECT:0 "§RWe currently only have $CUR|Y$ of $MAX|Y$ ponies in this division, limiting all stats to $FACTOR|%Y$ of what they would be if all equipment was present.§!"
+
+ #waroverview_l
+ CAN_SURRENDER_FACTION_MEMBERS:1 "They are currently fighting with their faction and will only surrender when all major factions members in this war has capitulated.\nThe §Yleader§! of §YRiver Coalition§! will not capitulate unless every other member has capitulated.\nMajor Faction members left to surrender:\n$MEMBER_LIST|Y$"
+ FIELDER_MANPOWER:0 "Fielded Owlpower: $MAN|Y*$"
+ 
+ #operatives_l
+ COUNTERINTELLIGENCE_ACTIVITY_LEVEL_2:0 "§YImportant§!: Foreign powers have a talon in the country"

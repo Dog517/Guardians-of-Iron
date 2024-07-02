@@ -1,0 +1,37 @@
+spriteTypes = {
+	spriteType = {
+
+		name = "GFX_ideology_tytoism"
+
+		texturefile = "gfx/interface/ideologies/tytoism.dds"
+
+	}
+	spriteType = {
+
+		name = "GFX_ideology_noauthority_group"
+
+		texturefile = "gfx/interface/ideologies/anarchism.dds"
+
+	}
+	spriteType = {
+
+		name = "GFX_ideology_liberalism_group"
+
+		texturefile = "gfx/interface/ideologies/liberalism.dds"
+
+	}
+	spriteType = {
+
+		name = "GFX_ideology_militarism_group"
+
+		texturefile = "gfx/interface/ideologies/militarism.dds"
+
+	}
+	spriteType = {
+
+		name = "GFX_ideology_glaux_group"
+
+		texturefile = "gfx/interface/ideologies/glaux.dds"
+
+	}
+}

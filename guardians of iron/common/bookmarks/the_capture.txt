@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "CAPTURE_NAME"
 		desc = "CAPTURE_DESC"
-		date = 1236.1.1.12
+		date = 0853.1.1.1
 		picture = "GFX_select_date_1936"
 		default_country = "KOG"
 		default = yes
@@ -30,6 +30,18 @@ bookmarks = {
 			}
 			focuses = {
 			}
+		}
+		"GBR"={
+			history = "GBR_CAPTURE_DESC"
+			ideology = glaux
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		#Other Countries
+		"---" = {
+			history = "OTHER_CAPTURE_DESC"
 		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

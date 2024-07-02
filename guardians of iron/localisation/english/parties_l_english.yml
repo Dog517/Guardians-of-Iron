@@ -2,6 +2,9 @@
  noauthority:0 "No Official Authority"
  noauthority_noun:0 "Anarchism"
  noauthority_desc:0 "Anarchy"
+ glaux:0 "Glauxism"
+ glaux_noun:0 "Glauxism"
+ glaux_desc:0 "Glauxian Monastery"
  militarism:0 "Militarism"
  militarism_noun:0 "Militarism"
  militarism_desc:0 "Militarist Regime"
@@ -14,6 +17,7 @@
  dyadism_desc:0 "Dyadism is a system of governance where power is held by two individuals who have absolute authority. Dyadism encompasses various forms of militarist, nationalist, and supremacist ideologies. It focuses on the collective subjugation and militarization of society, enforcing strict control, unrealistic work quotas, and brainwashing tactics like Moonblinking. Dyadist regimes prioritize the erasure of individuality, ensuring all owls work towards the militaristic goals set by the ruling dyad."
  tytoism_desc:0 "Tytoism is an elitist, militaristic, and imperialist ideology that places the Tyto species of owls above all else, emphasizing their purity, hence the name. Tytoist societies employ tactics such as segregation, discrimination, brutal slavery of non-Tytos, and forms a personality cult around the single, ultimate ruler, the High Tyto."
  nogov_desc:0 "This owl kingdom has no official ruler or governance."
+ glauxism_desc:0 "Glauxism is an ideology which believes that Hagsfiends came into the world when owlkind fell away from Glaux. Glauxism advocates for a return to core virtues such as compassion, charity, and altruism as remedies for this spiritual estrangement. Central to Glauxism is a monastic lifestyle that includes rigorous education and vows of silence, promoting inner reflection and communal harmony."
 
 
 
@@ -38,3 +42,14 @@
  PUR_militarism_party_long:0 "Rebellious Generals"
  PUR_liberalism_party:1 "Retribution Council"
  PUR_liberalism_party_long:0 "Retribution Council"
+ PUR_glaux_party:1 "Tyto Cultists"
+ PUR_glaux_party_long:0 "Tyto Cultists"
+
+ GBR_glaux_party:1 "Glauxian Council"
+ GBR_glaux_party_long:0 "Glauxian Council"
+ GBR_purism_party:1 "Esoteric Glauxists"
+ GBR_purism_party_long:0 "Esoteric Glauxists"
+ GBR_militarism_party:1 "Peacebringers"
+ GBR_militarism_party_long:0 "Peacebringers"
+ GBR_liberalism_party:1 "Liberal Council"
+ GBR_liberalism_party_long:0 "Liberal Council"

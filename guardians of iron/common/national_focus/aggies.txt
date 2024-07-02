@@ -1,0 +1,70 @@
+focus_tree = {
+	id = 1
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AGG
+		}
+	}
+	#Defy the Dyad
+	focus = {
+		id = AGG_defy_the_dyad
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		x = 10
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = AGG_dyad_forever }
+		completion_reward = {
+		}
+	}
+	#Dyad Forever
+	focus = {
+		id = AGG_dyad_forever
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		x = 2
+		y = 1
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		mutually_exclusive = { focus = AGG_defy_the_dyad }
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 1 }
+		}
+	}
+	#Moonblinking
+	focus = {
+		id = AGG_moonblinking
+		icon = GFX_AGG_moonblinking-666944
+		x = 1
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AGG_dyad_forever }
+		completion_reward = {
+			owner = { add_ideas = moonblinking }
+		}
+	}
+	#Owlnapping
+	focus = {
+		id = AGG_owlnapping
+		icon = GFX_AGG_owlnapping-666945
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = AGG_dyad_forever }
+		completion_reward = {
+			owner = { add_ideas = owlnapping }
+		}
+	}
+}

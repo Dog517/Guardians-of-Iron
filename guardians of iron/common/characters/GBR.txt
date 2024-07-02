@@ -1,0 +1,15 @@
+characters={
+	GBR_council={
+		name = GBR_council
+		portraits = {
+			civilian = {
+				large = GFX_portrait_council
+			}
+		}
+		country_leader={
+			ideology = glauxism
+			desc = GBR_DESC_council
+			traits = { champion_of_peace_1 kaiserin_of_the_people }
+		}
+	}
+}

@@ -37,4 +37,7 @@
  BKS_noauthority_ADJ:0 "Beaksian"
  BAR_noauthority: "Kingdom of The Barrans"
  BAR_noauthority_DEF: "The Barrans"
- BAR_noauthority_ADJ:0 "Barranian"
+ BAR_noauthority_ADJ:0 "Barrian"
+ GBR_glaux: "Glauxian Brothers Retreat"
+ GBR_glaux_DEF: "Glauxian Brothers"
+ GBR_glaux_ADJ:0 "Glauxian"

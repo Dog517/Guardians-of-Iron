@@ -1,6 +1,6 @@
 bookmarks = {
 	bookmark = {
-		name = "TEST"
+		name = "Future Bookmark"
 		desc = "TEST"
 		date = 1236.1.1.12
 		picture = "GFX_select_date_1936"
