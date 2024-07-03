@@ -8,15 +8,16 @@ bookmarks = {
 		default = yes
 		
 		"AGG"={
-			history = "FRA_GATHERING_STORM_DESC"
+			history = "AGG_CAPTURE_DESC"
 			ideology = militarism
 			ideas = {
+				recovering_from_civil_war
 			}
 			focuses = {
 			}
 		}
 		"KOG"={
-			history = "FRA_GATHERING_STORM_DESC"
+			history = "KOG_CAPTURE_DESC"
 			ideology = liberalism
 			ideas = {
 			}

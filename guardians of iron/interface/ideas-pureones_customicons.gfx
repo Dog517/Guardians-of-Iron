@@ -1,0 +1,15 @@
+spriteTypes = { 
+	##Icon For: Castle Base
+	SpriteType = { 
+		name = "GFX_idea_castle_base-1058"
+		texturefile = "gfx/ideas/pureones-ideas/castle_base-1058.dds"
+	}
+
+	##Icon For: Pure Military
+	SpriteType = { 
+		name = "GFX_idea_pure_military-681782"
+		texturefile = "gfx/ideas/pureones-ideas/pure_military-681782.dds"
+	}
+
+ 
+ }

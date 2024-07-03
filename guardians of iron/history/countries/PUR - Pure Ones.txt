@@ -1,5 +1,7 @@
 ﻿capital = 38
 
+add_ideas = castle_base
+add_ideas = pure_military
 
 recruit_character = PUR_metal
 
