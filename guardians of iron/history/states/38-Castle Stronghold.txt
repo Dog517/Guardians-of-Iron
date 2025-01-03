@@ -1,6 +1,6 @@
 state={
 	id=38
-	name="Castle Stronghold"
+	name="STATE_38"
 	provinces={
 		2059 
 	}

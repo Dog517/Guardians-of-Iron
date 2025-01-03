@@ -2,7 +2,7 @@ strategic_region={
 	id=3
 	name="Island of Hoole"
 	provinces={
-		813 1048 1598 1624 1996 
+		813 1048 1598 1624 1996 4071
 	}
 	weather={
 	}

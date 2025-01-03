@@ -1,6 +1,6 @@
 state={
 	id=13
-	name="Northern Beyond"
+	name="STATE_13"
 	provinces={
 		1011 1945
 	}

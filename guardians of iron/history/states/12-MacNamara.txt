@@ -1,6 +1,6 @@
 state={
 	id=12
-	name="Far Northern Beyond"
+	name="STATE_12"
 	provinces={
 		100 312 664 684 989 1307 1355 1785 1928 1937 1938 
 	}

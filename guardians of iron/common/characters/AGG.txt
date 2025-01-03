@@ -4,26 +4,39 @@ characters={
 		portraits = {
 			civilian = {
 				large = GFX_portrait_skench_spoorn
-}
-}
+			}
+		}
 		country_leader={
 			ideology = dyadism
 			desc = AGG_DESC_skench_spoorn
 			traits = { anti_democrat, NOR_ruthless_administrator }
 		}
-	}
+}
 	AGG_hortense={
 		name = AGG_hortense
 		portraits = {
 			civilian = {
 				large = GFX_portrait_hortense
-}
-}
+			}
+		}
 		country_leader = {
 			ideology = libertism
 			desc = AGG_DESC_hortense
 			traits = { baltic_revolutionary }
 		}
-
+	}
+	AGG_auntie={
+		name = AGG_auntie
+		portraits = {
+			civilian = {
+				large = GFX_portrait_auntie
+				small = GFX_idea_portrait_auntie
+				}
+			}
+			advisor = {
+            idea_token = auntie
+            slot = political_advisor
+            traits = { anti_democrat }
+		}
 	}
 }

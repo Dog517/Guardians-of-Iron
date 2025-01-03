@@ -1,6 +1,6 @@
 state={
 	id=11
-	name="Central Beyond"
+	name="STATE_11"
 	provinces={
 		267 278 462 500 703 708 718 756 951 997 1192 1346 1477 1717 1944 1958 
 	}

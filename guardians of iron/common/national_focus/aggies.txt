@@ -34,6 +34,7 @@ focus_tree = {
 		}
 		mutually_exclusive = { focus = AGG_defy_the_dyad }
 		completion_reward = {
+			recruit_character = AGG_auntie
 			add_offsite_building = { type = arms_factory level = 1 }
 		}
 	}

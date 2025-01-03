@@ -1,6 +1,6 @@
 state={
 	id=16
-	name="Mirror Lakes"
+	name="STATE_16"
 	provinces={
 		464 855 1117 1234 1305 1459 2056 4066 
 	}

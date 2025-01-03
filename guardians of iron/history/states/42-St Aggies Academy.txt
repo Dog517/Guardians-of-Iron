@@ -1,6 +1,6 @@
 state={
 	id=42
-	name="St. Aegolius's Academy for Orphaned Owls"
+	name="STATE_42"
 	provinces={
 		683 987 1226 1639 
 	}
@@ -9,6 +9,7 @@ state={
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	history = {
+		victory_points = { 683 35 } #academy
 		add_core_of = AGG
 		owner = AGG
 }

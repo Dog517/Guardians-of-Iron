@@ -1,6 +1,6 @@
 state={
 	id=15
-	name="Midwest Beyond"
+	name="STATE_15"
 	provinces={
 		366 567 789 1462 1563 1975 
 	}

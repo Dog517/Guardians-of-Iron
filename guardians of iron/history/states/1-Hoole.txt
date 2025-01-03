@@ -1,15 +1,16 @@
 state={
 	id=1
-	name="Island of Hoole"
+	name="STATE_1"
 	provinces={
-		1048 1598 1624 813 1996
+		1048 1598 1624 813 1996 4071
 		}
 	buildings_max_level_factor=1.000
         manpower=5000
         state_category = metropolis
 	history={
-		victory_points = { 1048 100 } #Great Tree
-		victory_points = { 813 25 } #Bubos Forge
+		victory_points = { 4071 45 } #Great Tree
+		victory_points = { 813 15 } #Bubos Forge
+		victory_points = { 1624 5 } #boron barren quater
 		owner = KOG
 		buildings = {
 			infrastructure = 2
