@@ -1,0 +1,14 @@
+state={
+	id=47
+	name="STATE_47"
+	provinces={
+		36 95 785 867 907 1021 1083 1284 1363 1518 1708 2055 2063 2076 2081 2090 
+	}
+history = {
+		owner = AMB
+		add_core_of = AMB
+}
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

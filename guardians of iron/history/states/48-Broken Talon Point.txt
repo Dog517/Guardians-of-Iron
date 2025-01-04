@@ -1,0 +1,13 @@
+state={
+	id=48
+	name="STATE_48"
+	provinces={
+		932 1967 1969 1973 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+		owner = KOG
+	}
+}

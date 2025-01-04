@@ -1,0 +1,5 @@
+spirit_woods_dynmod = {
+    icon = GFX_idea_unknown
+    enable = { always = yes }
+defence = 0.5
+}

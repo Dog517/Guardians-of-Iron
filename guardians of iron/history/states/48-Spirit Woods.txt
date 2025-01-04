@@ -1,0 +1,18 @@
+state={
+	id=49
+	name="STATE_49"
+	provinces={
+		352 542 545 596 733 850 1054 1070 1130 1367 1487 1525 1579 1741 1968 1980 1986 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	history={
+  
+	add_dynamic_modifier = {
+        modifier = spirit_woods_dynmod
+    	}
+
+	owner = KOG
+	}
+}
